@@ -1,0 +1,42 @@
+name: kripto_bilgi
+description: Kripto Bilgi
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  flutter_launcher_icons: ^0.8.1
+  flutter_native_splash: ^0.2.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  image: assets/splash_screen.jpg
+  color: "42a5f5"
+  android_disable_fullscreen: true
+  fill: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    #    - assets/icons/
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/font/opensans_light.ttf
+        - asset: assets/font/opensans_regular.ttf
+        - asset: assets/font/opensans_semibold.ttf
